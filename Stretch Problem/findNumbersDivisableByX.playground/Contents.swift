@@ -2,4 +2,14 @@
 
 import UIKit
 
-var str = "Hello, playground"
+
+func xIsDivisable(x: Int, y: Int) {
+    
+    let intArray = Array(0...y)
+    for int in intArray {
+        if int % x == 0 {
+            print (Int)
+            
+        }
+    }
+}
