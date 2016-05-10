@@ -11,7 +11,7 @@ import UIKit
 class DayDetailViewController: UIViewController {
 
     
-    var day = String?
+    var day: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,11 +19,6 @@ class DayDetailViewController: UIViewController {
         // Do any additional setup after loading the view.
 
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-
-    
     if let unwrappedDay = day {
         navigationItem.title = unwrappedDay
        
@@ -39,5 +34,3 @@ class DayDetailViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
-}
